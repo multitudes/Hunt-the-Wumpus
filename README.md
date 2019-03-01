@@ -13,5 +13,5 @@ Quite sweet. After that I found references to the Wumpus in other places in the 
 and I found out later after my project that Brendan Gregg (one of the senior Netflix engineers) on his blog has under specials a version of Wumpus in C: [http://www.brendangregg.com/Specials/](http://www.brendangregg.com/Specials/)
 
 A version of Solaris Unix shipped with the Wumpus as a game, like the Chess game in Mac..
-I really enjoyed doing this small exercice. It can be done better, I would love to continue work on it at some time in the future. It would be nice to get a randomized layout at the start of the game. And eventually in version 2 a GUI like in the Texas Instrument version.
-<img src="/wumpusm.jpg" alt="drawing" width="200"/>
+I really enjoyed doing this small exercice. It can be done better, I would love to continue work on it at some time in the future. It would be nice to get a randomized layout at the start of the game. And eventually in version 2 a GUI like in the Texas Instrument version.<br>
+<img src="/wumpusm.jpg" alt="drawing" width="400"/>
