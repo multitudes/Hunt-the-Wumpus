@@ -28,21 +28,21 @@ Die Player sind in dem Spiel als Vektor von null bis 5 gespeichert, in die Reihe
 
 Arrows enthält die Pfeilenzahl und die Methoden um die Pfeilenzahl upzudaten: updateArrows(), und die Methode shootArrow() die ueberprüft op die Pfeile den Wumpus getroffen hat, die Methode getArrowsNum() um zu wissen wieviele Pfeile übrig sind.
 
-Die Functionen sind in einen functions.cpp und functions.hpp definiert bzw. deklariert.
-printTitle() ist einfach eine Willkommenseite.
-getInstructions() fragt ob der User die Dokumentation lesen will.
-setConnxRooms() abhaengig von dem Raum in dem ich bin, diese Function wird mein connxRooms vector mit den werten von den 3 angrenzenden Räume updaten.
-checkHazard() muss checken op in einem der 3 angrenzenden Räume entweder ein Wumpus, eine Superfledermaus oder eine bodenlose Schacht sich befindet. Wenn so dann wird die Meldung rausgegeben :I SMELL A WUMPUS! , BATS NEARBY! oder I FEEL A DRAFT!.
-ShootOrMove() einfach eine Helperfunction um die mainfunction zu entlasten. Es wird gefragt nach Eingabe von “S” für schiessen oder “M” für schiessen
-moveRoutine() Mein Player bewegt sich dann ein Raum weiter und diese Function check ob in dem Raum ein Wumpus, Superfledermäusen, oder schächten sich befinden
-check_occupant() wird in der moveRoutine() benutzt um zu checken wer sich in dem Raum befindet 
-getAnswerChar() ist eine Helperfunction um ein char input zu bekommen.
-getAnswerIntRoom() ist eine Helperfunction um ein int input zu bekommen. 
-printTunnels() drückt die angrenzenden Räume aus.
-newRandomRoom() wenn der Player von der Superfledermaus teletransportiert wird dann bekommt er einen neuen Raum
-printMyRoom() Konsoleausgabe von meinem Raum 
-shootArrowRoutine() wenn ein Pfeil geschossen wird, wird durch diese Funktion gecheckt ob den Wumpus getroffen wurde, oder wenn der Pfeil zurück kam, ob der Player dadurch getroffen worden ist.
-youKilledTheWumpus() Unterfunction von shootArrowRoutine(). Wird einfach auf die Konsole die Meldung rausgegeben
-youMissedArrowRoutine() Unterfunction von shootArrowRoutine(). Veschiedene Meldungen werden ausgegeben und hier wird gecheckt ob man sich selbst geschossen hat.
-moveWumpusRoutine() wenn man geschossen hat und nicht getroffen, dann der Wumpus bewegt sich zum nächsten Raum.
-printInstructions()  Nur die Einfache Konsoleausgabe von den Spielanweisungen.
+Die Functionen sind in einen functions.cpp und functions.hpp definiert bzw. deklariert.  
+printTitle() ist einfach eine Willkommenseite.  
+getInstructions() fragt ob der User die Dokumentation lesen will.  
+setConnxRooms() abhaengig von dem Raum in dem ich bin, diese Function wird mein connxRooms vector mit den werten von den 3 angrenzenden Räume updaten.  
+checkHazard() muss checken op in einem der 3 angrenzenden Räume entweder ein Wumpus, eine Superfledermaus oder eine bodenlose Schacht sich befindet. Wenn so dann wird die Meldung rausgegeben :I SMELL A WUMPUS! , BATS NEARBY! oder I FEEL A DRAFT!.  
+ShootOrMove() einfach eine Helperfunction um die mainfunction zu entlasten. Es wird gefragt nach Eingabe von “S” für schiessen oder “M” für schiessen. 
+moveRoutine() Mein Player bewegt sich dann ein Raum weiter und diese Function check ob in dem Raum ein Wumpus, Superfledermäusen, oder schächten sich befinden  
+check_occupant() wird in der moveRoutine() benutzt um zu checken wer sich in dem Raum befindet   
+getAnswerChar() ist eine Helperfunction um ein char input zu bekommen.  
+getAnswerIntRoom() ist eine Helperfunction um ein int input zu bekommen.   
+printTunnels() drückt die angrenzenden Räume aus.  
+newRandomRoom() wenn der Player von der Superfledermaus teletransportiert wird dann bekommt er einen neuen Raum 
+printMyRoom() Konsoleausgabe von meinem Raum   
+shootArrowRoutine() wenn ein Pfeil geschossen wird, wird durch diese Funktion gecheckt ob den Wumpus getroffen wurde, oder wenn der Pfeil zurück kam, ob der Player dadurch getroffen worden ist.  
+youKilledTheWumpus() Unterfunction von shootArrowRoutine(). Wird einfach auf die Konsole die Meldung rausgegeben. 
+youMissedArrowRoutine() Unterfunction von shootArrowRoutine(). Veschiedene Meldungen werden ausgegeben und hier wird gecheckt ob man sich selbst geschossen hat.  
+moveWumpusRoutine() wenn man geschossen hat und nicht getroffen, dann der Wumpus bewegt sich zum nächsten Raum.  
+printInstructions()  Nur die Einfache Konsoleausgabe von den Spielanweisungen.  
